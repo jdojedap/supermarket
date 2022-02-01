@@ -1,0 +1,107 @@
+.itemTeacher{
+    background:rgb(54, 51, 231);
+    width: 300px;
+    height: 300px;
+}
+
+
+/*Teacher List*/
+table {
+    border-collapse: collapse;
+}
+td {
+    border-bottom: 1px solid rgb(165, 33, 33);    
+    padding: 8px;
+    padding-top: 20px;
+  
+}
+tr{
+    background-color: #7fd8db;
+    
+    
+}
+
+th {  
+    border-bottom: 1px solid rgb(73, 27, 199);    
+    padding: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: #640404;
+    color: white;
+    border-radius: 30px;
+    width: 500px;
+
+}
+    
+
+    tr:hover {background-color: rgb(34, 60, 211);}
+/*Teacher Update*/
+.boxUpdate{
+
+
+    width: 600px;
+    height: 400px;
+}
+
+.boxFormUpdate{
+    background: rgb(202, 29, 29);
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+.boxFormUpdate h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.boxFormUpdate label{
+    background: rgb(187, 21, 118);
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+.formUpdateInput {
+    padding: 15px;
+    border: 1px solid rgb(12, 223, 212);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+.formUpdateBtn {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: rgb(107, 10, 10);
+    border: 10 px;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+body{
+    background-color: rgb(122, 219, 66);
+}

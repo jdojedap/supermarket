@@ -1,0 +1,17 @@
+ul {
+    list-style: none;  
+    background-color: rgb(18, 202, 156);
+    width: 550px;
+    border-radius: 10px;
+}
+
+li { 
+    background: rgb(178, 211, 32);
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.navlink { 
+    text-decoration: none;
+}
